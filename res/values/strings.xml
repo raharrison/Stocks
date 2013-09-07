@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stocks</string>
+    <string name="none"></string>
+    <string name="action_update">Update</string>
+    <string name="action_about">About</string>
+    <string name="action_addticker">Add Ticker</string>
+    <string name="search_hint">Enter a company to add</string>
+    <string name="search">Search&#8230;</string>
+    <string name="remove_ticker_title">Remove Ticker?</string>
+    <string name="remove_ticker">Are you sure you want to remove this ticker?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_internet_connection">No internet connection available</string>
+    <string name="updating">Retrieving stock details&#8230;</string>
+    <string name="unable_download_stocks">Unable to download stock data</string>
+    <string name="last_updated">Last Updated: </string>
+    <string name="downloading_chart">Downloading chart for: </string>
+    <string name="unable_download_chart">Unable to download chart for: </string>
+    <string name="chart_for">Stock price chart for: </string>
+    <string name="not_available">N/A</string>
+    <string name="news_feed">News Feed</string>
+    <string name="searching_news_feed">Searching for news feed&#8230;</string>
+    <string name="unable_download_feed">Unable to download news feed</string>
+    <string name="searching_for">Searching for</string>
+    <string name="unable_find_results">Unable to find results for</string>
+    <string name="search_results">Search results for</string>
+    <string name="chart_description">Stock price chart</string>
+    <string name="one_day">1d</string>
+    <string name="one_week">1w</string>
+    <string name="one_month">1m</string>
+    <string name="three_month">3m</string>
+    <string name="six_month">6m</string>
+    <string name="view_chart">View Chart</string>
+    <string name="price">Price:</string>
+    <string name="change">Change:</string>
+    <string name="day_high">Day High:</string>
+    <string name="day_low">Day Low:</string>
+    <string name="year_low">Year Low:</string>
+    <string name="year_high">Year High:</string>
+    <string name="volume">Volume:</string>
+    <string name="avg_volume">Avg. Volume:</string>
+    <string name="market_cap">Mkt. Cap:</string>
+    <string name="up_arrow">↑</string>
+    <string name="down_arrow">↓</string>
+    <string name="market_closed">Market Closed</string>
+    <string name="about">View stocks and shares information for a wide variety of different businesses.\n\n
+        To add a new business to your portfolio, touch the \'Add Ticker\' item in the main menu. Search for ticker and touch a result to add it as a tile to the home screen.\n\n
+        The most important data about each stock is displayed in the tile. The colour of the tile will change depending on the price change.\n\n
+        To update the information on your stocks, touch the \'Update\' item in the menu.\n\n
+        To remove a stock from the homescreen, hold your finger on the tile.\n\n
+        Touch on a tile on the homescreen to view more detailed information about the stock including a news feed with items related to the stock.\n\n
+        Touch the \'View Chart\' item to view a stock chart at various time intervals.\n\n
+        All data courtesy of Yahoo! Finance (free for personal use)\n\n\n
+        Ryan Harrison (rh00148) 2013\n\n\n
+        Sometimes the data for certain stocks can intermittently fail to download successfully.
+        I haven\'t been fully able to diagnose the problem, but it seems to be that sometimes the finance data is not returned correctly from the finance API.
+        Updating the stocks a few times seems to solve the problem however.</string>
+
+</resources>

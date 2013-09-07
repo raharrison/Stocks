@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Displays the name of the company -->
+
+    <TextView
+        android:id="@+id/miniCompanyTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/none"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Nested horizontal layout displays the ticker and exchange of the stock -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <!-- Displays the stock ticker -->
+
+        <TextView
+            android:id="@+id/miniTickerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/none"
+            android:textSize="12sp" />
+
+        <!-- Displays the exchange the stock belongs to -->
+
+        <TextView
+            android:id="@+id/miniExchangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/none"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Displays the current price of the stock -->
+
+    <TextView
+        android:id="@+id/miniPriceTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/none"
+        android:textSize="22sp" />
+
+    <!-- Nested horizontal layout displays pricing information about the stock -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <!-- Displays the price change of the stock -->
+
+        <TextView
+            android:id="@+id/miniChangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/none"
+            android:textSize="18sp" />
+
+        <!-- Displays the percentage change in price of the stock -->
+
+        <TextView
+            android:id="@+id/miniPercentChangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/none"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Displays the market capitalisation of the stock -->
+
+    <TextView
+        android:id="@+id/miniMarketCapTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/none"
+        android:textSize="16sp" />
+
+</LinearLayout>

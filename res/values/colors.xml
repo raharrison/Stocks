@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Solid red used for price text -->
+    <color name="red">#FFFF0000</color>
+
+    <!-- Solid green used for price text -->
+    <color name="green">#FF46E82A</color>
+
+    <!-- Lighter green used for custom mini quote view background -->
+    <color name="lightgreen">#FF69D169</color>
+
+    <!-- Lighter green used for custom mini quote view background -->
+    <color name="lightred">#FFFF1616</color>
+
+    <!-- Grey colour used as background for quote data -->
+    <color name="background">#FFDCDCDC</color>
+
+    <!-- Black used as color of 1dp views acting as separating lines -->
+    <color name="black">#FF000000</color>
+
+</resources>

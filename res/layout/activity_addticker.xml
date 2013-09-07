@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- EditText used for user to insert their stock query string -->
+
+    <EditText
+        android:id="@+id/tickerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_hint" />
+
+    <!-- Button to start the search of possible stocks using the user query -->
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchButtonOnClick"
+        android:text="@string/search" />
+
+    <!-- TextView to display the progress of the download -->
+
+    <TextView
+        android:id="@+id/searchProgressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/none" />
+
+    <!-- ListView used to display the stock search results -->
+
+    <ListView
+        android:id="@+id/searchList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

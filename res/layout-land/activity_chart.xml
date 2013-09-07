@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- Group of radio buttons allows user to select the timespan of the chart -->
+
+    <RadioGroup
+        android:id="@+id/chartRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- One day timespan option -->
+
+        <RadioButton
+            android:id="@+id/oneDayRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/one_day"
+            android:textSize="@dimen/chart_radiobutton_textsize" />
+
+        <!-- One week timespan option -->
+
+        <RadioButton
+            android:id="@+id/oneWeekRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/one_week"
+            android:textSize="@dimen/chart_radiobutton_textsize" />
+
+        <!-- One month timespan option -->
+
+        <RadioButton
+            android:id="@+id/oneMonthRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/one_month"
+            android:textSize="@dimen/chart_radiobutton_textsize" />
+
+        <!-- Three month timespan option -->
+
+        <RadioButton
+            android:id="@+id/threeMonthRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/three_month"
+            android:textSize="@dimen/chart_radiobutton_textsize" />
+
+        <!-- Six month timespan option -->
+
+        <RadioButton
+            android:id="@+id/sixmonthRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="@string/six_month"
+            android:textSize="@dimen/chart_radiobutton_textsize" />
+    </RadioGroup>
+
+    <!-- Nested layout used to display the chart itself and the progress of the download -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- TextView to display the progress of the chart download -->
+
+        <TextView
+            android:id="@+id/chartProgressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/none" />
+
+        <!-- ImageView to display the actual chart image that has been downloaded -->
+
+        <ImageView
+            android:id="@+id/chartImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/chartProgressTextView"
+            android:contentDescription="@string/chart_description" />
+    </RelativeLayout>
+
+</LinearLayout>

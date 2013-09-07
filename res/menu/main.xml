@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Item to add a new ticker to the current portfolio -->
+    <item
+        android:id="@+id/action_addticker"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_addticker"/>
+
+    <!-- Item to update the quote data of each stock in the current portfolio -->
+    <item
+        android:id="@+id/action_update"
+        android:icon="@drawable/ic_menu_refresh"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_update"/>
+
+    <!-- Item to display the about app dialog -->
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_about"/>
+
+</menu>

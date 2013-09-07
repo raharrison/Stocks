@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- The name of the stock -->
+
+    <TextView
+        android:id="@+id/companyNameTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/none"
+        android:textSize="@dimen/quote_mainitem_textsize" />
+
+    <!-- Small view used as a line separator of elements -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <!-- Nested horizontal layout used to display price data -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Displays the price of the stock -->
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none"
+            android:textSize="@dimen/quote_mainitem_textsize"
+            android:textStyle="bold" />
+
+        <!-- Displays the price change of the stock -->
+
+        <TextView
+            android:id="@+id/changeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none"
+            android:textSize="@dimen/quote_mainitem_textsize" />
+
+        <!-- Displays the percentage price change of the stock -->
+
+        <TextView
+            android:id="@+id/percentchangeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/none"
+            android:textSize="@dimen/quote_mainitem_textsize" />
+    </LinearLayout>
+
+    <!-- Small view used as a line separator of elements -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <!-- Nested table layout used to display rows of stock information in textviews -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/background" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/quote_tablerow_padding" >
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/day_high"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The days high price of the stock -->
+
+            <TextView
+                android:id="@+id/dayHighTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_padding_right"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/year_high"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The years high price of the stock -->
+
+            <TextView
+                android:id="@+id/yearHighTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+        </TableRow>
+
+        <!-- Small view used as a line separator of elements -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/quote_tablerow_padding" >
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/day_low"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The days low price of the stock -->
+
+            <TextView
+                android:id="@+id/dayLowTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_padding_right"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/year_low"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The years low price of the stock -->
+
+            <TextView
+                android:id="@+id/yearLowTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+        </TableRow>
+
+        <!-- Small view used as a line separator of elements -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/quote_tablerow_padding" >
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/volume"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The volume of trades of the stock -->
+
+            <TextView
+                android:id="@+id/volumeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_padding_right"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/avg_volume"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The average volume of trades of the stock -->
+
+            <TextView
+                android:id="@+id/averageVolumeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+        </TableRow>
+
+        <!-- Small view used as a line separator of elements -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/quote_tablerow_padding" >
+
+            <!-- Title of the piece of stock data -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_title_padding_right"
+                android:text="@string/market_cap"
+                android:textSize="@dimen/quote_subitem_textsize" />
+
+            <!-- The market capitalisation of the stock -->
+
+            <TextView
+                android:id="@+id/marketCapTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/quote_padding_right"
+                android:text="@string/none"
+                android:textSize="@dimen/quote_subitem_textsize" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Small view used as a line separator of elements -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <!-- Button used to go to a chart image of the stock in another activity -->
+
+    <Button
+        android:id="@+id/chartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onChartButtonClick"
+        android:text="@string/view_chart" />
+
+    <!-- Displays the progress of the download of the news feed of the stock -->
+
+    <TextView
+        android:id="@+id/feedTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/none" />
+
+    <!-- Displays the news feed of the stock -->
+
+    <ListView
+        android:id="@+id/feedList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Text size of the main text items in the quote layout -->
+    <dimen name="quote_mainitem_textsize">25sp</dimen>
+
+    <!-- Text size of the sub text items in the quote layout -->
+    <dimen name="quote_subitem_textsize">15sp</dimen>
+
+    <!-- Right padding of title text elements in the quote layout -->
+    <dimen name="quote_title_padding_right">3dp</dimen>
+
+    <!-- Right padding of sub text elements in the quote layout -->
+    <dimen name="quote_padding_right">6dp</dimen>
+
+    <!-- Padding for the tablerows in the quote layout -->
+    <dimen name="quote_tablerow_padding">3dp</dimen>
+
+    <!-- Text size of the radiobuttons in the chart layout -->
+    <dimen name="chart_radiobutton_textsize">14sp</dimen>
+
+</resources>
