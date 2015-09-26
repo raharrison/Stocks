@@ -1,10 +1,10 @@
 # Android Stocks App
 
-An Android app that can be used to view stocks and shares information from a wide variety of different businesses. The user maintains their own stocks portfolio so they only see the latest figures and information for the tickers that they are interested in – be it technology businesses such as Google or Microsoft, or perhaps just the popular financial indicator such as the FTSE or Dow Jones. The portfolio can be added to or removed from at the users convenience.
+An Android app that can be used to view stocks and shares information from a wide variety of different businesses. The user maintains their own stocks portfolio so they only see the latest figures and information for the tickers that they are interested in â€“ be it technology businesses such as Google or Microsoft, or perhaps just the popular financial indicator such as the FTSE or Dow Jones. The portfolio can be added to or removed from at the users convenience.
 
 ###The Main View Screen
 
-![MainView](http://ryanharrison.co.uk/wp-content/uploads/2013/09/stocks_main.jpg)
+![MainView](http://ryanharrison.co.uk/apps/stocks/stocks_main.jpg)
 
 - View stocks and shares information for a wide variety of different businesses.
 - To add a new business to your portfolio, touch the 'Add Ticker' item in the main menu. Search for ticker and touch a result to add it as a tile to the home screen.
@@ -18,11 +18,11 @@ An Android app that can be used to view stocks and shares information from a wid
 
 ###The Information View
 
-![InfoView](http://ryanharrison.co.uk/wp-content/uploads/2013/09/stocks_info.jpg)
+![InfoView](http://ryanharrison.co.uk/apps/stocks/stocks_info.jpg)
 
 ###The Add Ticker view
 
-![AddTickerView](http://ryanharrison.co.uk/wp-content/uploads/2013/09/stocks_add.jpg)
+![AddTickerView](http://ryanharrison.co.uk/apps/stocks/stocks_add.jpg)
 
 
 
